@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Refil {
+public class Refil {
+    private Ink ink;
+    private Tip tip;
 }

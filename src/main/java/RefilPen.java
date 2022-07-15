@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public interface RefilPen {
+public interface RefilPen {
+
+    Refil getRefil();
+
+    boolean canChangeRefil();
+
+    void changeRefil(Refil newRefil);
 }

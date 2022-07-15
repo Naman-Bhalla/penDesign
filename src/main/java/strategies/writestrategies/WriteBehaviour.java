@@ -1,2 +1,6 @@
-package strategies.writestrategies;public interface WriteBehaviour {
+package strategies.writestrategies;
+
+public interface WriteBehaviour {
+
+    void write();
 }

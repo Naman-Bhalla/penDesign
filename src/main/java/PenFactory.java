@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class PenFactory {
+public class PenFactory {
+
+    public static GelPen.Builder createGelPen() {
+        return new GelPen.Builder();
+    }
+
+    public static BallPen.Builder createBallPen() {return null;}
 }

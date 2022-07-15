@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public enum PenType {
+public enum PenType {
+    GEL,
+    BALL,
+    FOUNTAIN,
+    MARKER,
 }
